@@ -1,0 +1,215 @@
+:root{
+    --color-primary: #ADD1E9;
+    --button-color: #0162FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    padding-top: 70px;
+}
+
+main section{
+    padding-top: 4rem;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    margin-bottom: 2rem;
+    font-size: small;
+}
+
+li h2{
+    color: white;
+    margin: 80px 0px 25px 0px;
+}
+
+li{
+    font-size: small;
+    margin-left: 0.3rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 1rem 1.3rem;
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    justify-content: space-between;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.col-20 ul li{
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.col-20 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.col-30 h4, .col-30 p{
+    margin-top: 10px;
+}
+
+.nav-l{
+    display: flex;
+}
+
+.first{
+    margin-top: 3rem;
+}
+
+.barra-nav{
+    display:flex;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+}
+
+.icon{
+    height: 20px;
+    margin-top: 12px;
+    display: block;
+}
+
+.marg{
+    margin-top: 2rem;
+}
+
+.button-a{
+    background-color: #0162FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.button-a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    cursor:pointer
+}
+
+.button-b{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.button-b:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    cursor:pointer
+}
+
+.img-m{
+    width: 200px;
+}
+
+.row{
+    display: flex;
+}
+
+.jumbo{
+    width: 720px;
+}
+
+.col-20{
+    width: 20%;
+    margin-bottom: 150px;
+}
+
+.col-30{
+    width: 30%;
+    margin: 20px 30px;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.img-100{
+    width: 100%;
+    display: block;
+}
+
+.mini-icon{
+    width: 15px;
+}
+
+.container-big{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.col-40 p, .col-40 button{
+    margin-top: 1.5rem;
+}
+
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.container-s{
+    width: 100%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    max-height: 30px;
+}
+
+.container-a h2{
+    margin-bottom: 3rem;
+}
+
+.container-a a{
+    font-size: small;
+}
+
+.jumbotron{
+    background-color: #ADD1E9;
+}
+
+.jumbotron .container-big{
+    position: relative;
+    top: 3rem;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.riga{
+    width: 30px;
+    background-color: gray;
+    border: 1px solid;
+}
+
