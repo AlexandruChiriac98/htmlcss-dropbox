@@ -175,6 +175,10 @@ nav{
     margin: 0 auto;
 }
 
+.col-60 .purple{
+    color: purple;
+}
+
 .sec-top p, .sec-top button{
     margin-top: 1.5rem;
 }
@@ -206,6 +210,10 @@ nav{
 .bg-color .container-big{
     position: relative;
     top: 3rem;
+}
+
+.pad{
+    padding: 5rem;
 }
 
 .black-bg{
