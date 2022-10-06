@@ -110,18 +110,19 @@ nav{
     margin-top: 6px;
 }
 
-.button-a:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
-    cursor:pointer
-}
-
 .button-b{
     background-color: white;
     padding: 10px;
     margin-top: 10px;
 }
 
-.button-b:hover{
+.button-c{
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.hov:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
     cursor:pointer
 }
@@ -174,7 +175,7 @@ nav{
     margin: 0 auto;
 }
 
-.col-40 p, .col-40 button{
+.sec-top p, .sec-top button{
     margin-top: 1.5rem;
 }
 
@@ -198,11 +199,11 @@ nav{
     font-size: small;
 }
 
-.jumbotron{
+.bg-color{
     background-color: #ADD1E9;
 }
 
-.jumbotron .container-big{
+.bg-color .container-big{
     position: relative;
     top: 3rem;
 }
